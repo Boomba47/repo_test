@@ -1,6 +1,6 @@
 <manifest>
     <remote name="wayne" fetch="https://github.com/Boomba47"/>
-    <default revision="master" remote="wayne" sync-j="4"/>
-    <project path="app/a1" name="a1"/>
+    <default revision="master" remote="wayne"/>
+    <project path="app/a1" name="a1" sync-s=“true”/>
     <project path="app/a2" name="a2"/>
 </manifest>
