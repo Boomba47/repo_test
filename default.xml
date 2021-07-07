@@ -1,6 +1,6 @@
 <manifest>
-    <remote name="origin" fetch="https://github.com/Boomba47"/>
-    <default revision="master" remote="origin"/>
-    <project path="app/a1" name="a1" sync-s="true"/>
-    <project path="app/a2" name="a2"/>
+    <remote name="project1" fetch="https://github.com/Boomba47"/>
+    <default revision="refs/heads/master" remote="project1"/>
+    <project path="app/a1" name="a1" remote="project1" sync-s="true"/>
+    <project path="app/a2" name="a2" remote="project1" />
 </manifest>
